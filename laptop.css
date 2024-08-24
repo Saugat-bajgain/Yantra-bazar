@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border:border-box;
+  }
+  .navbar{
+  width: 100%;
+    height:60px;
+    background-color: #0E103D;
+    color: #C8C6D7;
+    display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  z-index:1000 ;
+  }
+  .logo{
+    position: relative;
+    left:10px;
+    font-weight: 700;
+    font-size: 30px;
+    
+  }
+  
+  .border{
+    border:1.5px solid transparent;
+    border-radius: 5px;
+  }
+  .border:hover{
+  background-color: #A5668B;
+  transition: 0.3s;
+  }
+  
+  .add-icon{
+    display: flex;
+  }
+  .add-icon{
+    display: flex;
+    align-items: center;
+  }
+  .nav-search{
+    display:flex;
+    width:620px;
+    background-color: pink;
+    height: 40px;
+    border-radius: 4px;
+  }
+  
+  .search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+  }
+  .search-icon{
+    width: 45px;
+    display: flex;
+  justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #BFACC8;
+    border-top-right-radius:4px ;
+    border-bottom-right-radius:4px ;
+  }
+  .language{
+    width:70px;
+    height: 50px;
+   display: flex;
+  
+  }
+  .flag{
+    background-image: url("download.png");
+    height: 20px;
+    position: relative;
+    width: 19px;
+  }
+  .l2{
+    width:50px;
+    height: 33px;
+    display: flex;
+  }
+  .l2 img{
+    width: 21px;
+    height: 16px;
+    margin-top: 16px;
+  }
+  .country{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 40px;
+    height: 15px;
+    margin-top: 16px;
+  }
+  span{
+  font-size: 0.7rem;
+  
+  }
+  .nav-sec{
+    font-size: 0.95rem;
+    font-weight: 700;
+  }
+  body{
+    background-color: #4A4063;
+  }
+  .main-body{
+  position: relative;
+  top:70px; 
+    
+
+  }
+  .n-main{
+    position: relative;
+    top:70px;
+    display: flex;
+  height:30px;
+  background-color: #4A4063; 
+
+}
+  .n-main a{
+    margin-top: 3px;
+ margin-left: 20px;
+    display: block;
+    color: #C8C6D7;
+    text-decoration: none;
+    
+  }
+.line{
+  border-top: 0.5px solid #7b5192;
+  margin-top: 7px;
+  position: relative;
+  top:70px;
+}
+.main-body{
+    height: 500px;
+    width: 100%;
+    background-color: #4A4063;
+}
+.photo{
+    background-color: #4A4063;
+    width: 100%;
+    height: 300px;
+    margin: 10px 0px 0px 10px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .img1{
+    height: 350px;
+    width: 255px;
+    background-color: #7966ab;
+    /* margin: 0px 0px 0px 15px ; */
+    border-radius: 5px;
+  
+   }
+   .th1{
+    background-image: url(m2.webp);
+    background-size:cover;
+    height: 200px;
+    width: 255px;
+    
+    margin: 0px ;
+   
+     }
+     .th2{
+      background-image: url(m3.webp);
+      background-size:cover;
+      height: 200px;
+      width: 250px;
+      
+      margin: 0px ;
+     
+       }
+       .th3{
+        background-image: url(m1.webp);
+        background-size:cover;
+        height: 200px;
+        width: 250px;
+        
+        margin: 0px ;
+       
+         }
+         .th4{
+          background-image: url(m3\ 512.webp);
+          background-size:cover;
+          height: 200px;
+          width: 250px;
+          
+          margin: 0px ;
+         
+           }
+          
+              
+                 .th7{
+                  background-image: url(Iphone\ 15\ pro\ max.webp);
+                  background-size:cover;
+                  height: 200px;
+                  width: 200px;
+                  
+                  margin: 0px ;
+                 
+                   }
+     .rs{
+      color: orange;
+     }
+     .del{
+      border: 1px solid palegoldenrod;
+      height: 15px;
+      width: 80px;
+      font-size: 12px;
+      border-radius: 5px;
+     }
+  .photo p{
+    margin:10px 0px 0px 15px;
+  }
+  .photo a{
+    margin:10px 0px 0px 15px;
+  }
+  .shadow{
+    border: 2px solid transparent;
+   }
+   .shadow:hover{
+    box-shadow: 10px 10px;
+   }
+  .filter ul{
+    margin-top: 10px;
+    color: white;
+  }
+  .filter ul p{
+    margin-top: 20px;
+  }
+  .filter h3{
+    color: #C8C6D7;
+  }
+  .photo{
+    margin-top: 60px;
+  }
+  
+  .i{
+    margin: 10px 0px 0px 7px;
+    color:rgb(175, 188, 199)
+  }
+  .photo-main{
+    width: 100%;
+  }
+  .s1{
+    background-image: url(asus.webp);
+    background-size:cover;
+    height: 200px;
+    width: 255px;
+    
+    margin: 0px ;
+   
+     }
+     .s2{
+      background-image: url(dell.webp);
+      background-size:cover;
+      height: 200px;
+      width: 255px;
+      
+      margin: 0px ;
+     
+       }
+       .s3{
+        background-image: url(dellv.webp);
+        background-size:cover;
+        height: 200px;
+        width: 255px;
+        
+        margin: 0px ;
+       
+         }
+         .s4{
+          background-image: url(hp\ victus.webp);
+          background-size:cover;
+          height: 200px;
+          width: 255px;
+          
+          margin: 0px ;
+         
+           }
+           @media(max-width:420px){
+            img{
+              width: 100%;
+              height: auto;
+            }
+         
+            .photo-main{
+        height: auto;
+        width: 100%;
+   
+   
+            }
+            .n-main{
+              height: auto;
+              width: 100%;
+            }
+            .photo{
+              height: auto;
+              width: 100%;
+              display: flex;
+              flex-wrap: wrap;
+            margin-top: 10px;
+            }
+            .img1{
+              margin-top: 19px;
+            }
+            .n-main{
+              height: auto;
+              width: 100%;
+            }
+            .logo{
+              position: relative;
+              left:5px;
+              font-weight: 600;
+              font-size: 12px;
+              
+            }
+            .nav-search{
+              width:15%;
+              height: 24%;
+              border-radius: 4px;
+            }
+                      
+            .search-icon{
+              font-size: 0.6rem;
+            
+            }
+            .search-input{
+              font-size: 0.5rem;
+            }
+            
+            p a{
+              font-size: 0.7rem;
+            
+              
+              }
+              .nav-sec{
+                font-size: 0.7rem;
+            
+              }
+              p span{
+                font-size: 0.7rem;
+              }
+            
+              .language{
+                width:40px;
+                height: auto;
+               display: flex;
+              
+              }
+              .l2{
+                width:50px;
+                height: 33px;
+             
+              }
+              .l2 img{
+                width: 16px;
+                height: 12px;
+                margin-top: 11px;
+                font-size: 10px;
+              }
+              .country{
+                width: 31px;
+                height: 15px;
+                margin-top: 11px;
+                font-size: 7px;
+              }
+              .shadow{
+                border: 1px solid transparent;
+               }
+               .shadow:hover{
+                box-shadow: 4px 4px;
+               }
+           }
+           
+              

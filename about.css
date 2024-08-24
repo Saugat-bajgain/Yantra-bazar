@@ -1,0 +1,48 @@
+.star::before {
+    content: "⭐⭐⭐⭐⭐";
+  }
+  .r1{
+    margin-left: 10px;
+    width: 500px;
+    background-color:#846094;
+    color: white;
+    border-radius: 5px;
+  }
+  body{
+    background-color: #4A4063;
+  }
+  h1{
+    color: #9790ca;
+  }
+  p{
+    color:#af9db7;
+  }
+  h3{
+color: #9790ca;
+  }
+  .c1{
+    display: flex;
+  }
+  @media(max-width:420px){
+    .r1{
+      margin-left: 5px;
+      width: 300px;
+      border-radius: 5px;
+      font-size: 10px;
+    }
+    .c1{
+      display: inline-block;
+    }
+    p{
+font-size: 9px;
+width: 300px;
+    }
+    h3{
+      width: 300px;
+      font-size: 18px;
+        }
+        h1{
+          width: 300px;
+          font-size: 18px;
+        }
+  }
