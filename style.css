@@ -127,6 +127,7 @@ text-decoration: none;
   margin-top: 20px;
   margin-left: 13px;
   display:inline-block;
+  font-size:2rem;
 }
  .main-right{
   background-image: url("main.jpg");
